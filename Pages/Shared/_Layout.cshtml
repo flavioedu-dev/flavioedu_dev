@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="~/flavioedu_dev.styles.css" asp-append-version="true" />
 </head>
 <body>
+    <nav>
+        <h1><a href="~/">FlávioEdu Dev</a></h1>
+        <div>
+            <a asp-page="About">Sobre mim</a>
+            <a asp-page="Projects">Projetos</a>
+            <a asp-page="Skills">Habilidades</a>
+        </div>
+    </nav>
+
     @RenderBody()
 </body>
 </html>

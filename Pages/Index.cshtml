@@ -1,10 +1,20 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Sobre mim";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<main>
+    <section class="my_title">
+        <h1>Olá, me chamo Flávio Eduardo</h1>
+        <h2>Sou um desenvolvedor .NET</h2>
+
+        <div>
+            <button>Download CV</button>
+            <button>Entrar em contato</button>
+        </div>
+    </section>
+    <section class="illustration">
+        <img src="~/imgs/illustration.svg" alt="illustration" />
+    </section>
+</main>

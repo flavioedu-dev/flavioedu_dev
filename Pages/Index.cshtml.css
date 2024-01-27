@@ -1,0 +1,53 @@
+﻿main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.illustration {
+    width: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: normal;
+    color: #828282;
+}
+
+.my_title > div {
+    margin-top: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: .5px solid transparent;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+button:first-child {
+    background-color: var(--essential-color);
+}
+
+button:first-child:hover {
+    background-color: transparent;
+    color: #FFF;
+    border: .5px solid #fff;
+}
+
+button:last-child {
+    background-color: transparent;
+    color: #FFF;
+    border: .5px solid #fff;
+}
+
+button:last-child:hover {
+    background-color: var(--essential-color);
+    color: #000;
+    border: .5px solid transparent;
+}

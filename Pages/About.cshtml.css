@@ -1,0 +1,54 @@
+﻿.about_me {
+    width: 800px;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about_me > h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about_me > p {
+    font-size: 1.2rem;
+}
+
+.contacts {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contacts > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contacts > div > .icon {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--contrast-color);
+    padding: 1.5rem;
+    border-radius: 50%;
+}
+
+.contacts h2 {
+    font-weight: 550;
+    margin-top: .5rem;
+}
+
+.contacts p {
+    font-size: 1.2rem;
+    color: #ffffffa2;
+}
